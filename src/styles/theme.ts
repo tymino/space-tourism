@@ -8,6 +8,7 @@ export const theme: ITheme = {
   fontBarlowCondensed: 'Barlow Condensed, sans-serif',
   colorDark: '#0b0d17',
   colorGray: '#383b4b',
+  colorBorder: '#383b4b',
   colorText: '#ffffff',
   colorTextOpacity: '#ffffff7f',
   colorBackNav: '#ffffff10',
