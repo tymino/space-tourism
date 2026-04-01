@@ -7,6 +7,6 @@
 - TypeScript
 - Flexbox
 - Styled components
-- Axios*
+- Axios\*
 
 \* - fetchData для галочки, все файлы в локальном store
