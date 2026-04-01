@@ -20,7 +20,7 @@ const Header = styled.div`
   @media ${device.laptop} {
     margin-top: 32px;
     margin-bottom: 9px;
-    font-size: 80px;
+    font-size: 70px;
   }
 
   @media ${device.mobileL} {
@@ -31,7 +31,6 @@ const Header = styled.div`
 `
 const Text = styled.div`
   padding-bottom: 50px;
-  border-bottom: 1px solid rgb(var(--colorGray));
   border-bottom: 1px solid ${({ theme }) => theme.colorBorder};
   ${textBody};
   color: ${({ theme }) => theme.colorDescribeText};

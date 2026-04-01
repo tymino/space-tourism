@@ -4,7 +4,7 @@ import { Image } from './Image'
 import { device } from '../../../styles/mediaSize'
 
 const StyledPilot = styled.ul`
-  @media ${device.mobileL} {
+  @media ${device.laptop} {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;

@@ -1,5 +1,5 @@
 import { put, select } from 'redux-saga/effects'
-import { fetchData } from '../../api/fetchData'
+import { fetchData, TStoreKey } from '../../api/fetchData'
 import {
   loadingPage,
   loadingPageFromCache,
@@ -16,7 +16,7 @@ export function* workerPageSaga(pathname: string): unknown {
     yield put(loadingPageFromCache(pathname))
   } else {
     try {
-      const data = yield fetchData(pathname)
+      const data = yield fetchData(pathname as TStoreKey)
 
       const response = { name: pathname, data }
 

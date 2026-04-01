@@ -26,11 +26,11 @@ const StyledSubheader = styled.div`
     margin-top: 0px;
     margin-bottom: 8px;
     font-size: 24px;
+    order: 2;
   }
 
   @media ${device.mobileL} {
     font-size: 16px;
-    order: 2;
   }
 `
 
@@ -43,11 +43,11 @@ const StyledHeader = styled.div`
   @media ${device.laptop} {
     margin-bottom: 16px;
     font-size: 40px;
+    order: 3;
   }
 
   @media ${device.mobileL} {
     font-size: 24px;
-    order: 3;
   }
 `
 
@@ -63,11 +63,11 @@ const StyledBio = styled.div`
     height: 130px;
     max-width: 600px;
     margin-bottom: 0px;
+    order: 4;
   }
 
   @media ${device.mobileL} {
     font-size: 15px;
-    order: 4;
   }
 `
 

@@ -9,7 +9,6 @@ const StyledContainer = styled.ul`
   @media ${device.mobileL} {
     display: flex;
     justify-content: center;
-    border-bottom: 2px solid ${({ theme }) => theme.colorBorder};
   }
 `
 const StyledImage = styled.img`
@@ -18,20 +17,17 @@ const StyledImage = styled.img`
   right: 11%;
 
   @media ${device.laptop} {
-    width: 50%;
-    height: auto;
-    max-height: 400px;
-    max-width: 300px;
-    transform: translateY(40px);
-    bottom: 0;
-    right: 20%;
-  }
-
-  @media ${device.mobileL} {
     position: relative;
     transform: translateY(0px);
     top: 0;
     right: 0;
+    max-height: 400px;
+    max-width: 300px;
+  }
+
+  @media ${device.mobileL} {
+    width: 50%;
+    height: auto;
   }
 `
 

@@ -7,15 +7,15 @@ const StyledTabList = styled.ul`
   display: flex;
   list-style: none;
 
-  @media ${device.mobileL} {
-    margin: 32px 0;
+  @media ${device.laptop} {
+    padding: 32px 0;
     order: 1;
   }
 `
 
 const StyledTabListItem = styled.li`
-  width: 15px;
-  height: 15px;
+  width: 20px;
+  height: 20px;
   margin-right: 24px;
 
   border-radius: 50%;
@@ -33,8 +33,8 @@ const StyledTabListItem = styled.li`
   }
 
   @media ${device.laptop} {
-    width: 10px;
-    height: 10px;
+    width: 16px;
+    height: 16px;
     margin: 0 8px;
   }
 `

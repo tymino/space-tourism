@@ -9,6 +9,7 @@ export interface ITheme {
   colorBackNav: string
   colorDescribeText: string
   colorInvisible: string
+  colorBorder: string
   transitionTime: string
   animationDuration: string
   animationOverlayOpacity: string

@@ -10,6 +10,7 @@ import { usePageData } from '../../hooks/usePageData'
 const StyledCrew = styled.div`
   padding: 0 11%;
 
+
   @media ${device.laptop} {
     padding: 0 38px;
   }
