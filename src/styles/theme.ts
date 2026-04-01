@@ -1,6 +1,8 @@
+import { ITheme } from '../types/theme'
+
 const ANIMATION_DURATION = '0.4s'
 
-export const theme = {
+export const theme: ITheme = {
   fontBellefair: 'Bellefair, sans-serif',
   fontBarlow: 'Barlow, sans-serif',
   fontBarlowCondensed: 'Barlow Condensed, sans-serif',
@@ -16,4 +18,8 @@ export const theme = {
   animationDuration: ANIMATION_DURATION,
   animationOverlayOpacity: '0.6',
   animationMenuPosRight: '-100%',
+}
+
+declare module 'styled-components' {
+  export interface DefaultTheme extends ITheme {}
 }

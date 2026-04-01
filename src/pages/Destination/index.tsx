@@ -74,6 +74,9 @@ export const Destination = () => {
   const { image, data, activeIndex, updateActiveIndex } =
     usePageData<IDataDestination[]>('destination')
 
+  console.log('dest', image, activeIndex)
+  console.log('dest data ', data)
+
   return (
     <StyledDestination role="main">
       <Background data={image} />

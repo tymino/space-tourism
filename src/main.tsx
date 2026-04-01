@@ -13,5 +13,5 @@ app.render(
     <ThemeProvider theme={theme}>
       <App />
     </ThemeProvider>
-  </Provider>
+  </Provider>,
 )

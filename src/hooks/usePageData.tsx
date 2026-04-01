@@ -13,7 +13,7 @@ interface IUsePageData<T> {
 }
 
 export const usePageData = <T extends TActivePage>(
-  pageName: keyof typeof ERoutes
+  pageName: keyof typeof ERoutes,
 ): IUsePageData<T> => {
   const image = useBackgroundImage(pageName)
   const { activeIndex, updateActiveIndex } = useSwitcher()

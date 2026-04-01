@@ -16,7 +16,8 @@ export function* workerPageSaga(pathname: string): unknown {
     yield put(loadingPageFromCache(pathname))
   } else {
     try {
-      const { data } = yield fetchData(pathname)
+      const data = yield fetchData(pathname)
+
       const response = { name: pathname, data }
 
       yield put(loadingPageSuccess(response))
